@@ -5,9 +5,69 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282d35;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-items{
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  padding: 30px 25px;
+  height: 90px;
+}
+
+.nav-text, .nav-text1{
+  margin: 0;
+}
+
+.nav-text {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 33px;
+}
+
+.nav-text1 {
+  color: #deebf8;
+}
+
+.nav-icon{
+  height: 100px;
+  margin-right: 7px;
+}
+
+main{
+  padding: 57px 27px;
+  color: white;
+  background-image: url('./logo192.png');
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.main-title{
+  margin: 0;
+  font-size: 39px;
+  text-align: left;
+}
+
+.main-facts{
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main-facts > li{
+  font-size: 16px;
+  line-height: 19px;
+  padding-block: 10px;
+  text-align: left;
+}
+
+.main-facts > li::marker{
+  font-size: 1.4rem;
+  color: #61dafb;
 }

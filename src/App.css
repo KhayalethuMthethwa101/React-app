@@ -1,3 +1,7 @@
+* {
+  box-sizing:border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-iteam{
+  list-style: none;
+  display: flex;
+}
+.nav-iteam > li {
+  padding: 10px;
 }
