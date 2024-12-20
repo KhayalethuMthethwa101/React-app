@@ -18,6 +18,15 @@ function App() {
           Learn React
         </a>
       </header>
+      <nav>
+        <ol className="App-header"> 
+          <li>I love React</li>
+          <li>React Is awesome</li>
+        </ol>
+      </nav>
+      <footer>
+        Copyright reserved 2024
+      </footer>
     </div>
   );
 }
